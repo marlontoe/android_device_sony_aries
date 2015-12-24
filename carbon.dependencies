@@ -61,7 +61,7 @@
   },
   {
     "remote": "gh",
-    "repository": "SuperBenevolent/aosp-vendor-qcom-proprietary"",
+    "repository": "SuperBenevolent/aosp-vendor-qcom-proprietary",
     "target_path": "vendor/qcom/proprietary",
     "revision": "lollipop-mr1"
   }
