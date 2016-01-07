@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
     device/sony/aries/rootdir/system/etc/tfa98xx/VoiceCallEarpice_top.preset:/system/etc/tfa98xx/VoiceCallEarpice_top.preset \
     device/sony/aries/rootdir/system/etc/tfa98xx/VoiceCallEarpice_top.eq:/system/etc/tfa98xx/VoiceCallEarpice_top.eq
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/sony/aries/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
+
 PRODUCT_NAME := aosp_d5803
 PRODUCT_DEVICE := aries
 PRODUCT_MODEL := Xperia Z3 Compact (AOSP)
